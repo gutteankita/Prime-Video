@@ -1,0 +1,31 @@
+/* Write your CSS here */
+
+.prime-video-container {
+  background-color: #000000;
+  padding-bottom: 30px;
+  min-height: 100vh;
+}
+
+.prime-img {
+  width: 100%;
+}
+
+.movies-container {
+  width: 90%;
+  margin: auto;
+  min-height: 100vh;
+}
+
+.movies-heading {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+@media (min-width: 577px) {
+  .movies-heading {
+  font-size: 40px;
+  
+}
+}
